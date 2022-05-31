@@ -191,6 +191,7 @@ class App extends Component {
         `https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&retmode=text&rettype=abstract&id=${idlistString}&api_key=9476810b14695bd14f228e63433facbf9c08`
       )
       .then((response3) => {
+        console.log("abstract" + JSON.stringify(response3.data));
         abstractObj.abstract = response3.data;
         abstractList.push(abstractObj);
       })
