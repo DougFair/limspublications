@@ -3,9 +3,9 @@ import "./Abstracts.css";
 import LinkButton from "./LinkButton";
 
 const Abstracts = (props) => {
-  console.log("hdvhjkdhvdmv");
   let abstractDisplay = "";
   const abstracts = props.abstracts[0].abstract;
+
   if (props.abstracts.length) {
     const breakIndices = [0];
     let element = "\n\n\n";
