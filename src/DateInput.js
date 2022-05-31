@@ -71,7 +71,7 @@ class DateInput extends Component {
 
         <div className="searchTitle">
           <p className="instruction">
-            You must enter a Start Date. End Date default to today.
+            You must enter a Start Date. End Date defaults to today.
           </p>
         </div>
       </div>
